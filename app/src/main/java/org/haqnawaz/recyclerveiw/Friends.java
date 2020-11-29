@@ -2,7 +2,6 @@ package org.haqnawaz.recyclerveiw;
 
 public class Friends {
     private int id;
-
     private String name;
     private int dob;
     private String city;

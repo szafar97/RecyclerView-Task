@@ -32,7 +32,7 @@ class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapter.MyVie
 
     @Override
     public void onBindViewHolder(@NonNull MyViewHolder holder, int position) {
-        holder.data=friendsList.get(position);
+        holder.data = friendsList.get(position);
         holder.textViewFriendName.setText(holder.data.getName());
         holder.textViewdateFriend.setText(String.valueOf(holder.data.getDob()));
         //holder.imageViewFriend.setImageResource(R.drawable.airplane);
